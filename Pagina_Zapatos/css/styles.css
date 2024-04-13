@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+
+body {
+    background-image: url(/imgs/portada.jpg);
+    background-size: 1000px; /* Cambia este valor según sea necesario */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding-top: 800px; /* Ajusta este valor para que coincida con la altura del header */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #696262;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li input[type="text"] {
+    padding: 5px;
+}
+
+nav ul li button {
+    padding: 5px 10px;
+    background-color: #606661;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #0d0f0d;
+}
+
+nav ul li:hover {
+    background-color: #bebebe;
+}
+
+.imgchiquita {
+    width: 20px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(159, 144, 196);
+    padding: 20px;
+}

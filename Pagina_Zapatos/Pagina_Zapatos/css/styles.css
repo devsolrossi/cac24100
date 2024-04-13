@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+    
+}
+
+body {
+    display: block;
+    background-size: 1000px;   
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+} 
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #696262;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    margin-left: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.busca{
+    position: center;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+ul li input[type="text"] {
+    padding: 5px;
+}
+
+ul li button {
+    padding: 5px 10px;
+    background-color: #606661;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul li button:hover {
+    background-color: #0d0f0d;
+}
+
+ul li:hover {
+    background-color: #bebebe;
+}
+
+.imgchiquita {
+    width: 20px;
+    height: auto;
+}
+
+
+.main{
+    background-image: url(../imgs/portada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    width: 100vw;
+    text-align: center;
+    padding: 400px;
+}
+
+
+.main h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(250, 249, 248);
+    padding-top: 1vh;
+} 

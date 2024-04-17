@@ -11,25 +11,66 @@
     <link rel="stylesheet" href="carrito">
     <link rel="stylesheet" href="iniciarsesion">
 </head>
-
-<header>
-    <a>
-        <h2><img src="/imgs/favicon.png" alt="" width="20px"> LINDA </h2>
-    </a>
-    <nav>
-        <ul>
-            <li><input type="text" placeholder="Buscar..."><button type="submit">OK</button></li>   
-            <li><a href="inicio">Inicio</a></li>
-            <li><a href="productos">Productos</a></li>
-            <li><a href="carrito"><img src="/imgs/bolsa-de-la-compra.png" class="imgchiquita" alt="bolsadecompra"></a></li>
-            <li><a href="iniciarsesion">Iniciar Sesión</a></li>
-        </ul>
-    </nav>
+<body>
+<header class="header">
+    <div class="marca">
+        <a href="#">
+            <h2><img src="../imgs/favicon.png" alt="" width="20px"> LINDA </h2>
+        </a>
+    </div>
+    
+    <form action="" class="buscador">
+        <input class="busca" type="text" placeholder="Buscar...">
+        <input class="botonbusca" type="submit" value="OK">
+    </form>
+    <ul id="menu2" class="menu">  
+        <li><a href="#">Inicio</a></li>
+        <li><a href="productos">Productos</a></li>
+        <li><a href="carrito"><img src="../imgs/bolsa-de-la-compra.png" class="imgchiquita" alt="bolsadecompra"></a></li>
+        <li><a href="iniciarsesion">Iniciar Sesión</a></li>
+    </ul>
 </header>
 
-<body>
+<main>
+    <section class="main">
+        <h1>Tus zapatos,<br> SIEMPRE!</h1>
+        <div class="button-container">
+            <button class="temporada">Temporada pasada</button>
+            <button class="temporada">Temporada actual</button>
+        </div>
+    </section>
+</main>
 
-    <h1>Tus zapatos, SIEMPRE!</h1>
-    
+<footer>
+    <div class="footer-content">
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>info@linda.com</p>
+            <p>11 4000 2000</p>
+            <p>Avenida Siempreviva 742</p>
+        </div>
+        <div class="enlaces">
+            <h3>Enlaces</h3>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="productos">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <ul class="menu">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="legal">
+        <p>&copy; 2024 LINDA Calzados</p>
+        <p><a href="#">Términos y Condiciones</a> | <a href="#">Política de Privacidad</a></p>
+    </div>
+</footer>
+<script src="/js/script.js"></script>
 </body>
 </html>
